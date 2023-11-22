@@ -1,0 +1,187 @@
+
+/* Body Class */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFB800;
+}
+a:link {
+    text-decoration: none;
+  }
+
+span {
+    font-size: 30px;
+}
+
+/* Navbar Class Element */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* Filter Button Class Element */
+.filter {
+    margin-top: 50px;
+}
+
+/* Film Trend Class Element */
+
+.trend {
+    font-size: 25px;
+    font-weight: 700;
+    color: #363C5C;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.film-trend {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #363C5CB5;
+}
+
+#card:hover {
+    transform: scale(1.01);
+    transition: all ease;
+    transition-duration: 0.5s;
+}
+
+.card-body {
+    color: white;
+}
+
+.card-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.card-footer {
+    color: white;
+}
+
+.button-lihat {
+    align-items: center;
+}
+
+.favorite {
+    font-size: 25px;
+    font-weight: 700;
+    color: #363C5C;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.film-favorite {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Booking Class Element */
+
+.title-chair {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.flex-chair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .chair-red {
+    background-color: #e74c3c;
+    padding: 8px;
+    color: white;
+  }
+
+  .chair-blue {
+    background-color: #3498db;
+    padding: 8px;
+    color: white;
+  }
+  
+  .screen {
+    width: 10px;
+    height: 350px;
+    background-color: #bdc3c7;
+    border: 1px solid #34495e;
+    transition: background-color 0.3s;
+    user-select: none;
+    margin-right: 50px;
+  }
+
+  .seat-map {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    gap: 10px;
+  }
+
+  .seat {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+    width: 50px;
+    height: 50px;
+    background-color: #bdc3c7;
+    border: 1px solid #34495e;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    user-select: none;
+  }
+
+  .seat.selected {
+    background-color: #3498db;
+  }
+
+  .seat.occupied {
+    background-color: #e74c3c;
+    cursor: not-allowed;
+  }
+
+  .payment {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+    width: auto;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .payment-button {
+    padding: 8px;
+    background-color: #363C5C;
+    color: #FFB800;
+    border-radius: 10px;
+  }
