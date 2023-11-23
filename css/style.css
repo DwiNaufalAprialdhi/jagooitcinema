@@ -98,7 +98,7 @@ span {
 
 .title-chair {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .flex-chair {
@@ -120,12 +120,15 @@ span {
     background-color: #e74c3c;
     padding: 8px;
     color: white;
+    border-radius: 10px;
   }
 
   .chair-blue {
     background-color: #3498db;
     padding: 8px;
     color: white;
+    border-radius: 10px;
+
   }
   
   .screen {
@@ -155,6 +158,8 @@ span {
     cursor: pointer;
     transition: background-color 0.3s;
     user-select: none;
+    border-radius:10px;
+    padding: 1px;
   }
 
   .seat.selected {
@@ -180,7 +185,7 @@ span {
   }
 
   .payment-button {
-    padding: 8px;
+    padding: 10px;
     background-color: #363C5C;
     color: #FFB800;
     border-radius: 10px;
